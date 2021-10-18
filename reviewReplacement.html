@@ -11,16 +11,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="fontawesome/js/all.js"></script>
-    <title>Pet Med System</title>
+    <title>Andrejs Celinskis</title>
     <style>
         html,
         body {
             height: 100%;
             font-family: 'Merriweather Sans', sans-serif;
             scroll-behavior: smooth;
-            background-color: #C4C4C4;
+            background-color: lightblue;
         }
-
+        .custom-font{
+            font-family: 'Luminari', fantasy;
+        }
 
         .faded {
             opacity: 0.8
@@ -80,24 +82,12 @@
         .next a {
             color: rgb(33, 37, 41);
         }
-
-        .bg-header{
-            background-color: #F4B3B3;
-        }
-
-        .nav-link{
-            color: black !important; 
-        }
-
-        .navbar-dark .navbar-brand{
-            color: black;
-        }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-header fixed-top">
-        <a class="navbar-brand" href="./index.html">Pet Med System<span class="sr-only">(current)</span></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#landing">Andrejs Celinskis<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -106,7 +96,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="./placeOrder.html">Place an Order</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#courses">Courses</a>
@@ -122,12 +112,12 @@
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, User!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm Andrejs!</h4>
         </div>
-        <!-- <div class="row mx-auto">
+        <div class="row mx-auto">
             <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
                 University.</h5>
-        </div> -->
+        </div>
         <div class="row my-4">
             <div class="col my-3"><img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="Python" /></div>
@@ -169,7 +159,7 @@
                     title="Projects"></i></a> </div>
 
     </div>
-    <!-- <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
         </div>
@@ -324,7 +314,7 @@
         <div class="row mt-5">
             <a href="#landing"><button type="button" class="btn btn-outline">Return to Top</button></a>
         </div>
-    </div> -->
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
